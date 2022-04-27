@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(248, 188, 99);
+}
+div.barra{
+  position: fixed;
+  width: 100%;
+  margin: 0%;
+  background-color: rgb(248, 230, 218);
+  float: top;
+  text-align-last: center;
+}
+
+h1.home{
+
+ padding-top: 20px;
+  border: solid 4px rgba(255, 153, 0, 0.186);
+  margin: 0%;
+  text-align:center;
+  background: linear-gradient(to top, rgba(255, 0, 0, 0), hsla(320, 100%, 50%, 0.316)); /*Standard*/
+  
+}
+
+div.general{
+  width:  30%;
+  padding: 0%;
+  margin: 3%;
+  text-align-last: center;
+  float: right;
+  border: solid 1.5px black;
+  border-radius: 5%;
+
+}
+
+span.linkheader1{
+  font-style: oblique;
+  font-size: 40px;
+}
+
+div.homeBody {
+  width: 70%;
+  background-color:orange;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0.3em;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 0;
+  border: solid;
+  border-width: 1.5px;
+  border-color: black;
+  float: top;
+  justify-content: center; 
+  border-radius: 2%;
+}
